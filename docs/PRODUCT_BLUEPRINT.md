@@ -1,6 +1,6 @@
 # PRODUCT BLUEPRINT
 
-> **Project:** RWA Due Diligence AI
+> **Project:** AI-Powered Due Diligence Infrastructure for Real-World Asset Tokenization
 >
 > **Version:** 1.0
 >
@@ -115,3 +115,31 @@ RWA Due Diligence AI is **not**:
 
 It is an AI-powered Due Diligence Infrastructure that prepares Real-World
 Assets for trusted tokenization and exchange review.
+
+---
+
+# 5. Success Criteria
+
+The MVP is considered successful when the following workflow is completed:
+
+Business uploads trade finance documents.
+
+↓
+
+AI analyzes documents and generates an explainable Due Diligence Report.
+
+↓
+
+Compliance Officer reviews the AI findings.
+
+↓
+
+Approved assets receive a verification hash on TRON.
+
+↓
+
+HTX receives a standardized Due Diligence Package for review.
+
+The objective is not to replace human decision-making.
+
+The objective is to dramatically reduce manual verification effort while producing a transparent and explainable review process.
