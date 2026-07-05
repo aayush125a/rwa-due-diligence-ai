@@ -241,3 +241,150 @@ identity providers, and regulatory services.
 
 This layer enables trusted interoperability without exposing internal platform
 logic.
+
+# 3. Core Components & Responsibilities
+
+The platform is divided into independent components. Each component has a clearly
+defined responsibility and communicates with other components through well-defined
+interfaces.
+
+This separation ensures maintainability, scalability, and easier future expansion.
+
+---
+
+## 3.1 Frontend
+
+The Frontend provides the user interface for all platform users.
+
+### Responsibilities
+
+- Business dashboard
+- Asset creation workflow
+- Document upload interface
+- AI report visualization
+- Compliance review interface
+- HTX review package viewer
+- Trust Lifecycle dashboard
+- User authentication interface
+
+### Does NOT
+
+- Analyze documents
+- Execute AI models
+- Perform compliance decisions
+- Interact directly with blockchain
+
+---
+
+## 3.2 Backend API
+
+The Backend acts as the central orchestrator of the platform.
+
+Every request passes through this service.
+
+### Responsibilities
+
+- Authentication
+- Authorization
+- User management
+- Asset management
+- Document management
+- Workflow orchestration
+- Report generation
+- Communication with AI Engine
+- Communication with Smart Contracts
+- Audit logging
+
+### Does NOT
+
+- Make compliance decisions
+- Store sensitive data on-chain
+- Replace AI analysis
+
+---
+
+## 3.3 AI Due Diligence Engine
+
+The AI Engine performs automated analysis of uploaded business documents.
+
+Its purpose is to assist human reviewers by generating explainable findings.
+
+### Responsibilities
+
+- OCR extraction
+- Document classification
+- Cross-document validation
+- Fraud detection
+- Compliance analysis
+- Risk scoring
+- Valuation estimation
+- Confidence scoring
+- Missing document detection
+- Explainable findings
+- Due Diligence Report generation
+
+### Does NOT
+
+- Approve assets
+- Reject assets
+- Tokenize assets
+
+AI provides recommendations only.
+
+---
+
+## 3.4 Smart Contract Layer
+
+Smart Contracts create immutable blockchain records after human approval.
+
+### Responsibilities
+
+- Asset tokenization
+- Verification hash storage
+- Timestamp recording
+- Report version tracking
+- Issuer wallet association
+
+### Does NOT
+
+- Store business documents
+- Store AI reports
+- Execute AI models
+
+---
+
+## 3.5 Data Storage
+
+Private platform data remains off-chain.
+
+### Stores
+
+- User accounts
+- Business profiles
+- Uploaded documents
+- AI reports
+- Compliance decisions
+- Audit logs
+- Asset metadata
+- Trust history
+
+Sensitive documents remain private.
+
+Only cryptographic proofs are written to the blockchain.
+
+---
+
+## 3.6 HTX Integration
+
+The platform prepares a standardized review package for HTX.
+
+### Responsibilities
+
+- Deliver exchange-ready reports
+- Share verification hashes
+- Provide audit trail
+- Support review workflow
+
+HTX remains responsible for its own listing decisions.
+
+The platform provides trusted information—not listing approval.
