@@ -949,3 +949,141 @@ Users should immediately recognize:
 
 This distinction is essential for transparency, explainability, regulatory
 trust, and user confidence.
+
+---
+
+# 9. Forms & Tables
+
+Forms and tables are central to the platform because users continuously upload
+documents, review compliance information, and analyze structured data.
+
+Every form and table should prioritize accuracy, readability, and efficiency.
+
+---
+
+## Form Design Principles
+
+Forms should request only the information necessary for the current step.
+
+Long forms should be divided into logical sections to reduce cognitive load.
+
+Required fields should be clearly indicated, while optional fields should be
+visually distinguished.
+
+Validation errors should appear immediately beside the relevant field with
+clear guidance on how to resolve the issue.
+
+---
+
+## Document Upload Forms
+
+Document upload is one of the primary workflows of the platform.
+
+The upload interface should support:
+
+- Drag-and-drop file upload
+- Multiple file selection
+- Upload progress indicators
+- Automatic document classification
+- Manual document type correction
+- File preview before submission
+
+Users should always understand which required documents have been uploaded and
+which documents are still missing.
+
+---
+
+## Input Components
+
+Standard input components include:
+
+- Text Fields
+- Text Areas
+- Dropdown Menus
+- Searchable Select Lists
+- Date Pickers
+- File Upload Components
+- Toggle Switches
+- Checkboxes
+- Radio Buttons
+
+All input components should maintain consistent spacing, sizing, and labeling
+throughout the application.
+
+---
+
+## Table Design Principles
+
+Tables organize structured compliance information in a clear and predictable
+format.
+
+Typical tables include:
+
+- Document Checklist
+- Compliance Checklist
+- Audit Trail
+- Risk Breakdown
+- Asset List
+- Due Diligence History
+
+Tables should remain easy to scan without excessive visual complexity.
+
+---
+
+## Table Features
+
+Where appropriate, tables should support:
+
+- Sorting
+- Searching
+- Filtering
+- Pagination
+- Row Expansion
+- Column Alignment
+
+These features improve navigation when reviewing large numbers of assets or
+documents.
+
+---
+
+## Empty States
+
+When no information is available, the interface should clearly communicate the
+current state.
+
+Examples include:
+
+- No documents uploaded
+- No reports generated
+- No assets available
+- No compliance reviews found
+
+Whenever possible, empty states should include a clear next action for the
+user.
+
+---
+
+## Error Handling
+
+Validation messages should be specific, actionable, and displayed near the
+relevant input.
+
+Examples:
+
+- Unsupported file format
+- File size exceeds limit
+- Required document missing
+- Invalid date format
+
+The system should explain how users can resolve the issue instead of simply
+reporting an error.
+
+---
+
+## Form Consistency
+
+Forms throughout the platform should maintain consistent layouts, labels,
+button placement, and interaction patterns.
+
+Users should not need to relearn how forms behave when navigating between
+different workflows.
