@@ -1100,3 +1100,98 @@ When a material change is detected after tokenization, the platform generates:
 
 Each approved report version is independently recorded on TRON, creating a
 transparent and verifiable history of the asset throughout its lifecycle.
+
+# 9. Scalability & Future Expansion
+
+The Hackathon MVP focuses on demonstrating a complete AI-assisted Due Diligence
+workflow for trade finance invoices. The architecture has been intentionally
+designed in a modular manner so each component can evolve independently without
+requiring major changes to the overall system.
+
+As adoption grows, the platform can expand beyond a single asset type, support
+additional AI capabilities, integrate with more blockchain networks, and serve
+multiple exchanges while preserving the same core workflow.
+
+---
+
+## Planned Platform Evolution
+
+### Additional Asset Types
+
+Support verification for a broader range of Real-World Assets, including:
+
+- Trade Finance Receivables
+- Warehouse Receipts
+- Commodities
+- Real Estate
+- Equipment Financing
+- Carbon Credits
+- Government Bonds
+- Private Credit
+
+---
+
+### Enhanced AI Capabilities
+
+Future AI improvements may include:
+
+- Multi-language document understanding
+- Cross-border compliance analysis
+- Automated anomaly detection
+- Historical issuer reputation analysis
+- Advanced fraud pattern recognition
+- Continuous learning from reviewer feedback
+
+---
+
+### Expanded Compliance Support
+
+The compliance engine can be extended to support multiple jurisdictions and
+regulatory frameworks by introducing configurable compliance rule sets.
+
+Examples include:
+
+- Country-specific document requirements
+- Industry-specific verification rules
+- Regional compliance standards
+- Exchange-specific review requirements
+
+---
+
+### Blockchain Expansion
+
+Although the Hackathon MVP uses TRON for verification and tokenization support,
+the architecture is designed to remain blockchain-agnostic.
+
+Future versions may support additional blockchain networks while maintaining a
+consistent AI Due Diligence workflow.
+
+---
+
+### Exchange Integration
+
+The standardized Due Diligence Package enables integration with multiple
+financial institutions and digital asset platforms.
+
+Future integrations may include:
+
+- Centralized Exchanges
+- Tokenization Platforms
+- Digital Asset Custodians
+- Institutional Investors
+- Financial Service Providers
+
+---
+
+## Long-Term Vision
+
+The long-term goal is to become the trust infrastructure layer for Real-World
+Asset verification.
+
+Rather than replacing existing exchanges or tokenization platforms, the system
+provides standardized, explainable, and AI-assisted Due Diligence that enables
+faster, more transparent, and more scalable Real-World Asset onboarding.
+
+As the ecosystem grows, the platform aims to become the common verification
+layer connecting businesses, compliance teams, blockchain networks, and
+financial institutions.
