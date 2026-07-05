@@ -388,3 +388,151 @@ The platform prepares a standardized review package for HTX.
 HTX remains responsible for its own listing decisions.
 
 The platform provides trusted information—not listing approval.
+
+# 4. End-to-End System Flow
+
+The platform follows a structured workflow that combines AI-assisted verification,
+human decision-making, blockchain verification, and exchange-ready reporting.
+
+Each stage has a clearly defined responsibility.
+
+---
+
+## Step 1 — Business Creates a New Asset
+
+A business user begins by creating a new asset submission.
+
+The user selects the asset type (for example, a trade finance invoice) and starts
+a verification request.
+
+---
+
+## Step 2 — Document Upload
+
+The business uploads all required supporting documents.
+
+Examples include:
+
+- Commercial Invoice
+- Purchase Order
+- Bill of Lading
+- Business Registration
+- Tax Certificate
+- Warehouse Receipt (if applicable)
+- Insurance Certificate
+
+The Backend securely stores these documents for AI processing.
+
+No documents are written to the blockchain.
+
+---
+
+## Step 3 — AI Due Diligence Analysis
+
+The Backend submits the uploaded documents to the AI Due Diligence Engine.
+
+The AI performs:
+
+- OCR extraction
+- Document classification
+- Cross-document validation
+- Fraud signal detection
+- Compliance analysis
+- Risk assessment
+- Valuation estimation
+- Missing document detection
+- Confidence scoring
+- Explainable findings generation
+
+The output is a structured Due Diligence Report.
+
+---
+
+## Step 4 — Exchange-Ready Due Diligence Package
+
+Using the AI findings, the platform generates a standardized package containing:
+
+- Authenticity Score
+- Compliance Score
+- Risk Score
+- Confidence Score
+- Valuation Summary
+- Missing Documents
+- Explainable Findings
+- AI Recommendation
+
+The package is designed for human review rather than automatic approval.
+
+---
+
+## Step 5 — Human Compliance Review
+
+A Compliance Officer reviews the AI-generated findings.
+
+The officer may:
+
+- Approve
+- Reject
+- Request Additional Documents
+
+AI provides recommendations only.
+
+The final decision always belongs to a human reviewer.
+
+---
+
+## Step 6 — TRON Verification
+
+If the asset is approved, the Backend interacts with the Smart Contract Layer.
+
+The platform records:
+
+- Due Diligence Report Hash
+- Timestamp
+- Report Version
+- Issuer Wallet
+- Asset Metadata
+
+Sensitive business documents remain off-chain.
+
+---
+
+## Step 7 — HTX Review Workflow
+
+HTX receives a standardized review package containing:
+
+- Due Diligence Report
+- Compliance Checklist
+- Risk Summary
+- Explainable Findings
+- Verification Hash
+- Audit Trail
+
+HTX performs its own review before making any listing decision.
+
+The platform supports HTX's workflow but does not replace it.
+
+---
+
+## Step 8 — AI Trust Lifecycle Monitoring
+
+After tokenization, the platform continues monitoring the asset.
+
+The AI Trust Lifecycle Engine continuously evaluates:
+
+- Issuer health
+- Trading activity
+- Wallet behavior
+- Regulatory updates
+- Sanctions changes
+- Document expiry
+- Fraud indicators
+
+When significant changes are detected, the platform:
+
+- Updates the Trust Score
+- Generates a new Due Diligence Report
+- Creates a new report hash on TRON
+- Notifies relevant stakeholders
+
+This transforms verification from a one-time event into an ongoing trust process.
