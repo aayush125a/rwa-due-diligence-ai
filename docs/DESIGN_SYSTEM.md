@@ -1612,3 +1612,127 @@ The objective is to build a platform that is inclusive, efficient, and
 professional, ensuring that every user can confidently complete critical
 compliance and due diligence workflows regardless of device or accessibility
 needs.
+
+---
+
+# 13. Motion & Micro-interactions
+
+Motion should enhance usability by providing feedback, guiding user attention,
+and communicating system status.
+
+Animations should always serve a functional purpose and never distract users
+from critical compliance workflows.
+
+---
+
+## Motion Principles
+
+Every animation should answer one of the following questions:
+
+- What just happened?
+- What is happening now?
+- What should the user notice next?
+
+If an animation does not improve understanding, it should not be used.
+
+---
+
+## Loading States
+
+Long-running operations should always provide visible feedback.
+
+Examples include:
+
+- AI document analysis
+- Report generation
+- File uploads
+- TRON verification
+- HTX package generation
+
+Loading indicators should clearly communicate that work is in progress.
+
+---
+
+## Progress Indicators
+
+Multi-step processes should display clear progress through each stage.
+
+Example:
+
+1. Document Analysis
+2. Fraud Detection
+3. Compliance Review
+4. Risk Assessment
+5. Valuation
+6. Confidence Scoring
+
+Users should always understand where they are within the workflow.
+
+---
+
+## Hover States
+
+Interactive elements should provide subtle visual feedback when hovered.
+
+Examples include:
+
+- Buttons
+- Navigation items
+- Table rows
+- Cards
+- Expandable findings
+
+Hover effects should improve discoverability without becoming distracting.
+
+---
+
+## Transitions
+
+Screen transitions should feel smooth and consistent.
+
+Examples include:
+
+- Opening detail panels
+- Expanding AI findings
+- Switching dashboard tabs
+- Navigating between reports
+
+Transitions should be quick and maintain user context.
+
+---
+
+## Notifications
+
+System notifications should communicate important events without interrupting
+the user's workflow.
+
+Examples include:
+
+- Document uploaded successfully
+- AI analysis completed
+- Compliance review approved
+- Additional documents requested
+- Trust Score updated
+
+Notifications should disappear automatically unless user action is required.
+
+---
+
+## Error Feedback
+
+Errors should immediately draw attention while clearly explaining how the user
+can resolve the issue.
+
+Animations should remain subtle and professional.
+
+Avoid excessive shaking, flashing, or distracting effects.
+
+---
+
+## Motion Consistency
+
+Animation speed, easing, and behavior should remain consistent throughout the
+application.
+
+A predictable interaction model improves usability and reinforces the platform's
+professional identity.
