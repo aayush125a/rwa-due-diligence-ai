@@ -217,3 +217,98 @@ These colors should never be used decoratively elsewhere in the interface.
 
 Users should be able to recognize the meaning of every color instantly,
 regardless of which screen they are viewing.
+
+---
+
+# 3. Typography System
+
+Typography plays a critical role in making financial and compliance information
+easy to understand.
+
+The interface should prioritize readability, consistency, and clear visual
+hierarchy over decorative styling.
+
+---
+
+## Typography Principles
+
+### Clarity First
+
+Every piece of information should be easy to scan and understand.
+
+Avoid decorative fonts or excessive styling.
+
+---
+
+### Strong Visual Hierarchy
+
+Users should immediately recognize:
+
+- Page titles
+- Section headings
+- Important metrics
+- Supporting information
+
+through consistent sizing and weight.
+
+---
+
+### Data is the Focus
+
+Financial values, compliance scores, confidence scores, and risk indicators are
+the primary information users rely on for decision-making.
+
+These values should be visually prominent using larger font sizes and increased
+font weight.
+
+Examples include:
+
+- Authenticity Score
+- Compliance Score
+- Risk Score
+- Confidence Score
+- Trust Score
+- Estimated Asset Value
+
+---
+
+### Supporting Information
+
+Descriptions, notes, explanations, and audit details should use smaller,
+secondary typography while remaining easy to read.
+
+Supporting text should never compete visually with key decision metrics.
+
+---
+
+### Consistent Formatting
+
+Dates, timestamps, percentages, currencies, and numerical values should follow
+consistent formatting throughout the application.
+
+Examples:
+
+- $500,000
+- 94%
+- 23 / 100
+- July 5, 2026
+- Version 1.0
+
+---
+
+## Readability Guidelines
+
+Maintain generous spacing between sections and avoid dense blocks of text.
+
+Long explanations should be broken into short paragraphs or bullet lists where
+appropriate to improve readability.
+
+---
+
+## Accessibility
+
+Typography should maintain sufficient contrast against backgrounds to ensure
+comfortable reading in both bright and low-light environments.
+
+Important information should never rely on color alone; labels, icons, and text
+should reinforce meaning.
