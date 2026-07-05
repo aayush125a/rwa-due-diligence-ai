@@ -88,3 +88,156 @@ Its role is to become the trust infrastructure that prepares Real-World Assets f
 This philosophy is summarized by the project's core principle:
 
 > **AI assists. Humans decide. Blockchain proves.**
+
+# 2. High-Level System Architecture
+
+## Overview
+
+The platform follows a layered architecture that separates user experience,
+business logic, artificial intelligence, blockchain integration, and external
+review workflows into independent components.
+
+This separation improves scalability, maintainability, security, and makes each
+component responsible for a single purpose.
+
+The system consists of six major layers:
+
+---
+
+## 1. Presentation Layer
+
+Responsible for all user interactions.
+
+This layer provides web interfaces for different user roles.
+
+### Users
+
+- Business Users
+- Compliance Officers
+- HTX Reviewers
+
+### Responsibilities
+
+- Business dashboard
+- Document upload
+- AI report visualization
+- Compliance review interface
+- HTX review package
+- Trust monitoring dashboard
+
+This layer never performs AI analysis or blockchain operations directly.
+
+It communicates with the Backend API.
+
+---
+
+## 2. Application Layer
+
+The Backend API acts as the central coordinator of the platform.
+
+Every request from the frontend passes through this layer before reaching other
+services.
+
+### Responsibilities
+
+- Authentication
+- Authorization
+- Asset management
+- Document management
+- Workflow orchestration
+- Report generation
+- Communication with AI Engine
+- Communication with Smart Contracts
+
+This layer contains the core business logic of the platform.
+
+---
+
+## 3. AI Intelligence Layer
+
+The AI Due Diligence Engine performs automated document verification and risk
+analysis.
+
+This layer transforms raw business documents into explainable compliance
+insights.
+
+### Responsibilities
+
+- OCR extraction
+- Document classification
+- Cross-document validation
+- Fraud signal detection
+- Compliance analysis
+- Risk assessment
+- Valuation estimation
+- Explainable findings generation
+- Confidence scoring
+- Due Diligence Report generation
+
+The AI Engine provides recommendations only.
+
+It never approves or rejects assets.
+
+---
+
+## 4. Blockchain Layer
+
+After human approval, blockchain services record proof that the verification
+process occurred.
+
+Sensitive business documents are never stored on-chain.
+
+Only cryptographic proofs and metadata are recorded.
+
+### Responsibilities
+
+- Asset tokenization
+- Report hash storage
+- Timestamp recording
+- Version history
+- Issuer wallet linkage
+- Smart contract execution
+
+This layer provides transparency and immutability.
+
+---
+
+## 5. Data Layer
+
+The platform stores operational data separately from blockchain records.
+
+Private business information remains securely stored off-chain.
+
+### Stores
+
+- Business profiles
+- Uploaded documents
+- AI reports
+- Compliance decisions
+- Audit logs
+- Asset metadata
+- Trust history
+
+This separation protects confidential business information while maintaining
+blockchain integrity.
+
+---
+
+## 6. External Integration Layer
+
+External systems consume standardized outputs produced by the platform.
+
+The primary integration target is HTX.
+
+Future integrations may include additional exchanges, compliance providers,
+identity providers, and regulatory services.
+
+### Responsibilities
+
+- HTX review package delivery
+- Verification status sharing
+- Future API integrations
+- Notification services
+
+This layer enables trusted interoperability without exposing internal platform
+logic.
