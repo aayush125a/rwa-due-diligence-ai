@@ -1087,3 +1087,200 @@ button placement, and interaction patterns.
 
 Users should not need to relearn how forms behave when navigating between
 different workflows.
+
+---
+
+# 10. Charts & Data Visualization
+
+The platform presents large amounts of financial, compliance, and risk-related
+information. Visualizations should simplify decision-making rather than add
+visual complexity.
+
+Charts should prioritize clarity, readability, and accuracy over decorative
+design.
+
+---
+
+## Visualization Principles
+
+Every chart should answer a specific question.
+
+Examples include:
+
+- How risky is this asset?
+- Has the Trust Score changed over time?
+- Which compliance requirements are incomplete?
+- What valuation adjustments were applied?
+
+If a chart does not help users make a better decision, it should not be used.
+
+---
+
+## Recommended Chart Types
+
+The platform primarily uses:
+
+- Progress Bars
+- Horizontal Bar Charts
+- Line Charts
+- Timeline Views
+- Donut Charts
+- Score Cards
+
+Complex visualizations such as 3D charts, pie charts with many segments,
+or unnecessary animations should be avoided.
+
+---
+
+## Risk Visualization
+
+Risk should always be displayed as individual components before presenting the
+overall score.
+
+Example:
+
+Country Risk
+
+████████░░ 70
+
+Industry Risk
+
+██████░░░░ 55
+
+Buyer Reputation
+
+██████████ 95
+
+Overall Risk Score
+
+23 / 100 (Low Risk)
+
+This allows users to understand why an asset received its final risk rating.
+
+---
+
+## Trust Score Trends
+
+The AI Trust Lifecycle Engine continuously recalculates Trust Scores.
+
+Historical changes should be displayed using a line chart showing:
+
+- Previous Trust Scores
+- Current Trust Score
+- Significant events affecting the score
+
+Trend indicators should clearly communicate whether trust is improving,
+declining, or remaining stable.
+
+---
+
+## Compliance Progress
+
+Compliance completion should be visualized using progress indicators.
+
+Example:
+
+Documents Submitted
+
+██████████ 100%
+
+Compliance Requirements
+
+████████░░ 85%
+
+This helps users immediately identify outstanding tasks.
+
+---
+
+## Valuation Visualization
+
+Asset valuation should be presented as a transparent calculation rather than a
+single number.
+
+Example:
+
+Estimated Asset Value
+
+$500,000
+
+↓
+
+Safety Buffer
+
+−5%
+
+↓
+
+Suggested Tokenization Value
+
+$475,000
+
+Users should always understand how the final valuation was determined.
+
+---
+
+## Confidence Scores
+
+AI-generated confidence should be displayed prominently using score cards or
+circular indicators.
+
+Confidence Scores should always include an accompanying explanation so users
+understand what contributes to the score.
+
+Confidence alone should never replace human judgment.
+
+---
+
+## Timeline Visualization
+
+Audit events and monitoring updates should be displayed chronologically.
+
+Typical events include:
+
+- Document Uploaded
+- AI Analysis Completed
+- Human Review Approved
+- TRON Verification Created
+- HTX Review Requested
+- Trust Score Updated
+
+Each event should include:
+
+- Timestamp
+- User or AI actor
+- Action performed
+- Optional notes
+
+---
+
+## Dashboard Metrics
+
+Dashboards should prioritize the most important operational metrics.
+
+Examples include:
+
+- Total Assets
+- Assets Under Review
+- Approved Assets
+- Rejected Assets
+- Average Risk Score
+- Average Compliance Score
+- Average Trust Score
+- Active Monitoring Alerts
+
+Metrics should be easy to scan within a few seconds.
+
+---
+
+## Accessibility
+
+Charts should never rely on color alone.
+
+Every visualization should include:
+
+- Labels
+- Numerical values
+- Icons where appropriate
+
+Users should be able to interpret information even in grayscale or with color
+vision deficiencies.
