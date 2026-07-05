@@ -1284,3 +1284,162 @@ Every visualization should include:
 
 Users should be able to interpret information even in grayscale or with color
 vision deficiencies.
+
+---
+
+# 11. Icons & Illustrations
+
+The platform operates in a financial and compliance environment where trust,
+clarity, and professionalism are essential.
+
+Visual elements should support understanding without distracting from the
+information being presented.
+
+---
+
+## Icon Philosophy
+
+Icons should reinforce meaning rather than replace text.
+
+Every important action or status should remain understandable even if icons are
+removed.
+
+Icons are intended to improve scanning speed, not to communicate information on
+their own.
+
+---
+
+## Icon Style
+
+The application should use a single, consistent icon library throughout the
+entire product.
+
+Icons should be:
+
+- Simple
+- Minimal
+- Outline-based
+- Consistent in size and stroke weight
+- Easy to recognize
+
+Avoid mixing icon styles from different libraries.
+
+---
+
+## Common Icon Usage
+
+Examples include:
+
+📄 Documents
+
+📁 File Upload
+
+🤖 AI Analysis
+
+🛡 Compliance
+
+⚖ Risk Assessment
+
+💰 Valuation
+
+✅ Approved
+
+❌ Rejected
+
+⚠ Warning
+
+🔍 Search
+
+📊 Dashboard
+
+👤 User
+
+🏢 Business
+
+⛓ TRON Verification
+
+📝 Audit Trail
+
+🔔 Notifications
+
+Icons should always appear alongside descriptive text where clarity is important.
+
+---
+
+## Status Icons
+
+Status icons should remain consistent throughout the platform.
+
+Examples:
+
+✓ Success
+
+⚠ Warning
+
+✕ Error
+
+ⓘ Information
+
+These visual indicators should always match the application's status badge
+system.
+
+---
+
+## Illustrations
+
+Illustrations should be used sparingly.
+
+The platform is designed for financial professionals rather than consumers.
+
+Illustrations are appropriate for:
+
+- Empty states
+- Welcome pages
+- Documentation
+- Onboarding
+
+Illustrations should never distract users during critical compliance or review
+workflows.
+
+---
+
+## Empty State Graphics
+
+When users encounter an empty state, simple illustrations may be used to make
+the interface feel approachable while maintaining a professional appearance.
+
+Examples:
+
+- No documents uploaded
+- No assets available
+- No reports generated
+- No notifications
+
+Each empty state should also include a clear explanation and recommended next
+action.
+
+---
+
+## Brand Imagery
+
+The interface should emphasize the platform's identity rather than third-party
+branding.
+
+Where appropriate, recognizable branding such as TRON or HTX logos may appear
+to indicate blockchain verification or exchange integration.
+
+Third-party logos should be displayed respectfully and never dominate the user
+interface.
+
+---
+
+## Visual Consistency
+
+Icons, illustrations, and imagery should maintain a unified visual language
+throughout the application.
+
+Users should experience a consistent interface regardless of which workflow they
+are currently using.
+
+Visual consistency reinforces trust, reduces cognitive load, and contributes to
+a more professional product experience.
