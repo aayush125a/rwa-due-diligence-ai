@@ -419,3 +419,169 @@ Avoid overcrowding the interface with excessive information on a single screen.
 
 Well-structured spacing improves readability, reduces cognitive load, and
 supports faster decision-making.
+
+---
+
+# 5. Component Library
+
+The platform is built using a reusable component-based design system.
+
+Every interface should be assembled from consistent UI components rather than
+creating new patterns for each screen.
+
+Reusable components improve consistency, development speed, and user familiarity.
+
+---
+
+## Primary Buttons
+
+Used for the main action on a page.
+
+Examples:
+
+- Submit for AI Review
+- Approve
+- Generate Report
+- Continue
+
+Only one primary action should exist within a major section.
+
+---
+
+## Secondary Buttons
+
+Used for supporting actions.
+
+Examples:
+
+- Cancel
+- Save Draft
+- View Details
+- Download Report
+
+Secondary actions should never compete visually with the primary action.
+
+---
+
+## Cards
+
+Cards organize related information into clearly separated sections.
+
+Examples:
+
+- Score Cards
+- Asset Summary
+- Due Diligence Report
+- Compliance Summary
+- Risk Overview
+
+Every card should include:
+
+- Title
+- Content
+- Optional action
+- Consistent spacing
+
+---
+
+## Tables
+
+Tables display structured compliance information.
+
+Examples include:
+
+- Document Checklist
+- Audit Trail
+- Risk Breakdown
+- Review History
+
+Tables should remain clean, readable, and sortable where appropriate.
+
+---
+
+## Status Badges
+
+Badges communicate the current state of assets, documents, and workflows.
+
+Examples:
+
+- Approved
+- Pending Review
+- AI Processing
+- Missing Document
+- Rejected
+- Tokenized
+
+Status badges should appear consistently throughout the application.
+
+---
+
+## Progress Indicators
+
+Progress components communicate workflow completion.
+
+Examples:
+
+- Upload Progress
+- AI Processing Pipeline
+- Document Completion
+- Verification Status
+
+Users should always understand where they are in the workflow.
+
+---
+
+## Modal Dialogs
+
+Modal windows should be reserved for important decisions requiring user
+confirmation.
+
+Examples:
+
+- Approve Asset
+- Reject Asset
+- Delete Report
+- Request Additional Documents
+
+Avoid using modals for displaying large amounts of information.
+
+---
+
+## Notifications
+
+Notifications provide immediate feedback after user actions.
+
+Examples:
+
+- Upload Successful
+- AI Analysis Complete
+- Approval Recorded
+- TRON Verification Created
+
+Notifications should be concise and action-oriented.
+
+---
+
+## Search & Filters
+
+Search and filtering components help users locate assets, reports, and
+documents quickly.
+
+Filtering options may include:
+
+- Risk Level
+- Asset Type
+- Status
+- Date
+- Business Name
+
+Search should remain available across major dashboard views.
+
+---
+
+## Reusability Principle
+
+Every reusable component should behave consistently regardless of where it
+appears in the application.
+
+Users should never need to relearn how an interface element functions.
