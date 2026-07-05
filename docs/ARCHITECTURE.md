@@ -536,3 +536,141 @@ When significant changes are detected, the platform:
 - Notifies relevant stakeholders
 
 This transforms verification from a one-time event into an ongoing trust process.
+
+# 5. Data Flow Architecture
+
+The platform processes sensitive business information through a controlled
+data pipeline. Each component receives only the information required to perform
+its responsibility, minimizing unnecessary data exposure and maintaining clear
+boundaries between private data and public blockchain records.
+
+---
+
+## Step 1 — Business Submission
+
+The Business User submits an asset along with the required supporting
+documents through the Frontend.
+
+The submission includes:
+
+- Asset information
+- Business information
+- Supporting documents
+- Issuer wallet address (when available)
+
+The Frontend sends this information securely to the Backend API.
+
+---
+
+## Step 2 — Backend Validation
+
+The Backend validates the submission before any AI processing begins.
+
+Validation includes:
+
+- Required document checks
+- File integrity
+- File format validation
+- User authorization
+- Asset creation
+
+Validated documents are stored securely in the platform's off-chain storage.
+
+---
+
+## Step 3 — AI Processing
+
+The Backend sends the uploaded documents to the AI Due Diligence Engine.
+
+The AI analyzes the documents and returns structured results, including:
+
+- Extracted document data
+- Fraud indicators
+- Compliance checklist
+- Risk assessment
+- Valuation summary
+- Missing document recommendations
+- Explainable findings
+- Confidence score
+
+No AI decision is considered final.
+
+The AI provides recommendations only.
+
+---
+
+## Step 4 — Due Diligence Report Generation
+
+The Backend combines all AI outputs into a standardized Due Diligence Report.
+
+The report becomes the primary review document used throughout the remainder
+of the workflow.
+
+The report remains stored off-chain.
+
+---
+
+## Step 5 — Human Review
+
+The Compliance Officer reviews the report.
+
+The review outcome is recorded as one of the following:
+
+- Approved
+- Rejected
+- Additional Information Requested
+
+The human decision becomes part of the permanent audit history.
+
+---
+
+## Step 6 — Blockchain Verification
+
+If approved, the Backend sends only verification metadata to the Smart
+Contract Layer.
+
+Recorded on TRON:
+
+- Verification hash
+- Report version
+- Timestamp
+- Asset metadata
+- Issuer wallet
+
+Private business documents and AI reports remain off-chain.
+
+---
+
+## Step 7 — HTX Review Package
+
+The Backend generates a standardized package for HTX.
+
+The package includes:
+
+- Due Diligence Report
+- Compliance Summary
+- Risk Summary
+- Explainable Findings
+- Verification Hash
+- Audit Trail
+
+HTX receives the verification package rather than raw uploaded documents.
+
+---
+
+## Step 8 — Continuous Monitoring
+
+After tokenization, the AI Trust Lifecycle Engine continuously evaluates
+the asset.
+
+When new risks or changes are detected, updated findings are generated.
+
+If necessary:
+
+- A new Due Diligence Report is created
+- The Trust Score is updated
+- A new verification hash is recorded on TRON
+- Relevant stakeholders are notified
+
+This creates a continuously evolving trust record rather than a single
+point-in-time verification.
