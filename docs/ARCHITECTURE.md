@@ -1004,3 +1004,99 @@ The AI does not approve or reject assets.
 
 Its role is to provide transparent, explainable recommendations that assist
 human decision-making.
+
+# 8. TRON Blockchain Integration
+
+The platform uses the TRON blockchain as an immutable trust layer for approved
+Real-World Assets.
+
+Blockchain integration occurs only after the Human Compliance Review process has
+been completed and an asset has been approved.
+
+The purpose of blockchain integration is not to store business documents, but
+to provide transparent, tamper-evident verification that the due diligence
+process has been completed.
+
+---
+
+## Why TRON
+
+TRON provides a fast and cost-effective blockchain environment suitable for
+recording verification data and supporting Real-World Asset tokenization.
+
+Within this platform, TRON acts as the system of record for approved asset
+verification rather than as a storage location for confidential business data.
+
+---
+
+## Verification Process
+
+After an asset is approved by a Compliance Officer, the Backend communicates
+with the Smart Contract Layer.
+
+The smart contract records a verification entry on TRON.
+
+Recorded information includes:
+
+- Due Diligence Report Hash
+- Report Version
+- Verification Timestamp
+- Asset Metadata
+- Issuer Wallet Address
+
+Sensitive documents remain off-chain.
+
+---
+
+## On-Chain vs Off-Chain Data
+
+### Stored On TRON
+
+- Verification Hash
+- Report Version
+- Timestamp
+- Asset Metadata
+- Issuer Wallet
+
+### Stored Off-Chain
+
+- Uploaded Documents
+- AI Due Diligence Reports
+- Compliance Notes
+- Audit Logs
+- Business Information
+
+This separation protects confidential business information while maintaining
+blockchain transparency.
+
+---
+
+## Benefits of Blockchain Verification
+
+Recording verification metadata on TRON provides several advantages:
+
+- Tamper-evident verification
+- Transparent report integrity
+- Immutable verification history
+- Version tracking
+- Trusted proof of review
+- Simplified auditability
+
+The blockchain acts as a permanent proof that an approved Due Diligence Report
+was generated for a specific asset at a specific point in time.
+
+---
+
+## Continuous Trust Updates
+
+The platform supports ongoing Trust Lifecycle monitoring.
+
+When a material change is detected after tokenization, the platform generates:
+
+- Updated Due Diligence Report
+- Updated Trust Score
+- New Report Version
+- New Verification Hash
+
+Each approved report version is independently recorded on TRON, creating a
+transparent and verifiable history of the asset throughout its lifecycle.
