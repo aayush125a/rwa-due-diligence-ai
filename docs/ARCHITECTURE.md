@@ -809,3 +809,198 @@ Different user roles have different permissions within the platform.
 
 Access is restricted according to user responsibilities to minimize unnecessary
 exposure of sensitive information.
+
+# 7. AI Due Diligence Workflow
+
+The AI Due Diligence Engine transforms uploaded business documents into an
+explainable Due Diligence Report that assists compliance professionals in
+evaluating whether an asset is suitable for tokenization.
+
+Rather than making decisions autonomously, the AI analyzes evidence,
+identifies potential risks, and presents structured recommendations for
+human review.
+
+The workflow consists of multiple analysis stages.
+
+---
+
+## Step 1 — Document Ingestion
+
+The AI receives uploaded business documents from the Backend API.
+
+Typical documents include:
+
+- Commercial Invoice
+- Purchase Order
+- Bill of Lading
+- Business Registration Certificate
+- Tax Certificate
+- Warehouse Receipt
+- Insurance Certificate
+
+The AI prepares these documents for analysis.
+
+---
+
+## Step 2 — OCR & Data Extraction
+
+The AI extracts structured information from every uploaded document.
+
+Examples include:
+
+- Company names
+- Invoice values
+- Dates
+- Product descriptions
+- Buyer information
+- Seller information
+- Invoice numbers
+- Currency
+- Shipping details
+
+The extracted information becomes structured data for downstream analysis.
+
+---
+
+## Step 3 — Document Classification
+
+The AI identifies the type of each uploaded document.
+
+Examples:
+
+- Invoice
+- Purchase Order
+- Bill of Lading
+- Tax Certificate
+- Insurance Certificate
+
+If necessary, users may correct the classification before processing continues.
+
+---
+
+## Step 4 — Cross-Document Validation
+
+The AI compares information across multiple documents to identify inconsistencies.
+
+Validation examples include:
+
+- Invoice amount matches Purchase Order
+- Buyer information matches across documents
+- Seller information remains consistent
+- Shipping dates align
+- Invoice references are consistent
+
+Detected inconsistencies are included in the final report.
+
+---
+
+## Step 5 — Fraud Signal Detection
+
+The AI searches for indicators that may require additional human attention.
+
+Examples include:
+
+- Duplicate documents
+- Conflicting document information
+- Suspicious metadata
+- Missing required information
+- Unusual document patterns
+
+The AI flags potential risks without making final judgments.
+
+---
+
+## Step 6 — Compliance Analysis
+
+The AI evaluates whether required documentation is present for the selected
+asset type.
+
+The analysis produces:
+
+- Completed requirements
+- Missing requirements
+- Additional document recommendations
+
+This checklist assists Compliance Officers during review.
+
+---
+
+## Step 7 — Risk Assessment
+
+The AI evaluates multiple risk dimensions.
+
+Examples include:
+
+- Country Risk
+- Industry Risk
+- Buyer Reputation
+
+These factors contribute to an overall Risk Score.
+
+The scoring process is explainable rather than opaque.
+
+---
+
+## Step 8 — Valuation Summary
+
+The AI estimates a suggested tokenization value based on the submitted asset.
+
+The summary includes:
+
+- Estimated Asset Value
+- Safety Buffer
+- Suggested Tokenization Value
+
+The valuation serves as a recommendation and is subject to human review.
+
+---
+
+## Step 9 — Explainable Findings
+
+Instead of producing only numerical scores, the AI generates clear,
+human-readable explanations.
+
+Examples include:
+
+- Buyer has a strong payment history.
+- Documents are internally consistent.
+- One ownership document is missing.
+- Shipping information matches across documents.
+
+Every major conclusion should be supported by traceable evidence.
+
+---
+
+## Step 10 — Confidence Scoring
+
+The AI calculates an overall Confidence Score representing the reliability
+of its analysis.
+
+Higher confidence indicates stronger document consistency and fewer
+identified issues.
+
+Lower confidence encourages additional human verification.
+
+---
+
+## Step 11 — Due Diligence Report Generation
+
+The AI combines all findings into a standardized Due Diligence Report.
+
+The report includes:
+
+- Authenticity Score
+- Compliance Score
+- Risk Score
+- Confidence Score
+- Valuation Summary
+- Missing Documents
+- Explainable Findings
+- AI Recommendation
+
+The report is delivered to the Backend for Human Compliance Review.
+
+The AI does not approve or reject assets.
+
+Its role is to provide transparent, explainable recommendations that assist
+human decision-making.
