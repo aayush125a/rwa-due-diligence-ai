@@ -39,3 +39,66 @@ The MVP will demonstrate the following journey:
 The MVP is designed to validate the product concept, demonstrate technical
 feasibility, and clearly communicate the long-term vision of AI-assisted Due
 Diligence Infrastructure for Real-World Asset tokenization.
+
+---
+
+# 3. Target Users
+
+The MVP is designed for three primary user groups, each with a clearly defined
+role within the due diligence workflow.
+
+---
+
+## 1. Business Users
+
+Business users are companies seeking to tokenize Real-World Assets, such as
+trade finance invoices.
+
+Typical examples include:
+
+- Exporters
+- Small and Medium Enterprises (SMEs)
+- Trade Finance Companies
+
+Their responsibilities include:
+
+- Creating a new asset submission
+- Uploading required documents
+- Reviewing AI-generated findings
+- Responding to requests for additional documents
+- Tracking the status of their submission
+
+---
+
+## 2. Compliance Officers
+
+Compliance Officers are responsible for validating AI-generated findings and
+making the final approval decision.
+
+Their responsibilities include:
+
+- Reviewing the Exchange-Ready Due Diligence Package
+- Examining AI-generated explanations
+- Verifying compliance requirements
+- Approving, rejecting, or requesting additional documents
+- Recording review decisions and notes
+
+The platform is designed to assist Compliance Officers, not replace them.
+
+---
+
+## 3. HTX Reviewers
+
+HTX Reviewers consume the standardized Due Diligence Package after compliance
+approval.
+
+Their responsibilities include:
+
+- Reviewing the summarized due diligence report
+- Viewing compliance and risk scores
+- Verifying the TRON verification hash
+- Accessing the audit trail
+- Making the final exchange review decision
+
+The MVP focuses on presenting a professional, read-only review interface for
+HTX rather than replicating internal exchange systems.
