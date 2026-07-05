@@ -815,3 +815,137 @@ entire application.
 
 Users should never encounter multiple visual representations for the same
 workflow state.
+
+---
+
+# 8. AI vs Human Design Pattern
+
+One of the defining characteristics of the platform is the clear separation
+between AI-generated information and human-confirmed decisions.
+
+Users should never confuse AI recommendations with official compliance
+decisions.
+
+The interface must consistently reinforce the platform philosophy:
+
+> AI assists.
+>
+> Humans decide.
+>
+> Blockchain proves.
+
+---
+
+## AI-Generated Content
+
+AI-generated information should always be visually identifiable.
+
+Examples include:
+
+- Document Analysis
+- Fraud Signals
+- Compliance Recommendations
+- Risk Assessment
+- Explainable Findings
+- Confidence Score
+- Valuation Summary
+- Missing Document Recommendations
+
+Every AI-generated section should include:
+
+- An "AI Generated" badge
+- Timestamp of analysis
+- AI engine version (where applicable)
+
+AI findings should be presented in a neutral, informative style without implying
+they represent a final decision.
+
+---
+
+## Human Decisions
+
+Compliance decisions always belong to authorized human reviewers.
+
+Human-confirmed actions include:
+
+- Approve Asset
+- Reject Asset
+- Request Additional Documents
+- Compliance Notes
+- Final Recommendation
+
+Every human decision should display:
+
+- Reviewer's name
+- Timestamp
+- Decision status
+- Optional review comments
+
+Human decisions should be visually distinct from AI-generated content using
+consistent status indicators and confirmation styling.
+
+---
+
+## Blockchain Verification
+
+Blockchain represents immutable proof rather than decision-making.
+
+After approval, the platform records verification metadata on TRON.
+
+Examples include:
+
+- Verification Hash
+- Timestamp
+- Report Version
+- Issuer Wallet
+- Smart Contract Reference
+
+Blockchain information should be presented as permanent verification records
+rather than editable application data.
+
+---
+
+## Information Hierarchy
+
+Throughout the platform, users should clearly understand the relationship
+between the three layers of trust.
+
+AI Layer
+
+- Generates analysis
+- Produces recommendations
+- Calculates scores
+- Detects potential risks
+
+↓
+
+Human Layer
+
+- Reviews AI findings
+- Makes compliance decisions
+- Requests additional information
+- Approves or rejects assets
+
+↓
+
+Blockchain Layer
+
+- Stores immutable verification
+- Preserves report history
+- Records version updates
+- Creates permanent proof
+
+---
+
+## Design Principles
+
+Never visually merge AI output with human decisions.
+
+Users should immediately recognize:
+
+- What the AI concluded
+- What the human approved
+- What has been permanently verified on-chain
+
+This distinction is essential for transparency, explainability, regulatory
+trust, and user confidence.
