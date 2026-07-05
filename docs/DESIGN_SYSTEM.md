@@ -699,3 +699,119 @@ Selecting a score should reveal the supporting AI findings, contributing
 factors, and relevant document evidence whenever appropriate.
 
 The platform prioritizes transparent AI over black-box scoring.
+
+---
+
+# 7. Status Badge System
+
+Status Badges provide users with an immediate understanding of the current state
+of assets, documents, AI processing, compliance reviews, and tokenization.
+
+Badges should remain visually consistent throughout the application and always
+use the same wording for the same state.
+
+---
+
+## Asset Status
+
+Asset status communicates the current stage of the Due Diligence workflow.
+
+Standard asset statuses include:
+
+- Draft
+- Documents Uploaded
+- AI Processing
+- Human Review
+- Approved
+- Rejected
+- Tokenized
+- Monitoring
+
+Only one primary asset status should be active at any time.
+
+---
+
+## Document Status
+
+Individual documents may display their own status.
+
+Examples include:
+
+- Uploaded
+- Verified
+- Missing
+- Requires Update
+- Expired
+- Invalid
+
+Document status should update automatically as the workflow progresses.
+
+---
+
+## AI Analysis Status
+
+During processing, the AI engine should clearly communicate its current stage.
+
+Examples:
+
+- Queued
+- Running
+- Completed
+- Failed
+
+Users should always understand whether analysis is still in progress or has
+finished successfully.
+
+---
+
+## Compliance Status
+
+Compliance review uses clear, decision-oriented statuses.
+
+Examples:
+
+- Pending Review
+- Additional Information Required
+- Approved
+- Rejected
+
+These statuses reflect human decisions rather than AI recommendations.
+
+---
+
+## Tokenization Status
+
+After approval, tokenization progresses through defined stages.
+
+Examples:
+
+- Ready for Tokenization
+- Tokenization Pending
+- Tokenized
+- Verification Recorded
+
+These statuses indicate blockchain-related progress.
+
+---
+
+## Badge Design Principles
+
+Every badge should:
+
+- Use consistent colors
+- Use concise wording
+- Be easily recognizable
+- Remain readable at smaller sizes
+
+Badges should communicate status instantly without requiring additional
+explanation.
+
+---
+
+## Consistency Rules
+
+A status should always appear using the same label, color, and style across the
+entire application.
+
+Users should never encounter multiple visual representations for the same
+workflow state.
