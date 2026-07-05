@@ -1443,3 +1443,172 @@ are currently using.
 
 Visual consistency reinforces trust, reduces cognitive load, and contributes to
 a more professional product experience.
+
+---
+
+# 12. Responsive Design & Accessibility
+
+The platform is designed primarily for desktop users performing compliance,
+document review, and due diligence workflows. However, all users should be able
+to access essential functionality across different devices and abilities.
+
+Responsive design and accessibility are fundamental product requirements rather
+than optional enhancements.
+
+---
+
+## Responsive Design Principles
+
+The interface should adapt gracefully to different screen sizes while preserving
+clarity and usability.
+
+Layouts should prioritize readability and efficient workflows regardless of
+device size.
+
+Content should reflow naturally without requiring horizontal scrolling.
+
+---
+
+## Desktop Experience
+
+Desktop is the primary platform for the application.
+
+Compliance officers and business users frequently review multiple documents,
+tables, and reports simultaneously.
+
+The desktop interface should provide:
+
+- Persistent sidebar navigation
+- Multi-column layouts where appropriate
+- Large document viewing areas
+- Rich data tables
+- Full dashboard experience
+
+---
+
+## Tablet Experience
+
+Tablet layouts should simplify multi-column interfaces while maintaining access
+to core functionality.
+
+Where necessary, side panels may collapse into expandable drawers.
+
+Document review and approval workflows should remain fully functional.
+
+---
+
+## Mobile Experience
+
+Mobile devices are intended primarily for monitoring and lightweight tasks.
+
+Users should be able to:
+
+- View asset status
+- Upload documents
+- Check notifications
+- Review AI summaries
+- Monitor Trust Scores
+
+Complex compliance reviews and detailed document analysis are recommended on
+desktop devices.
+
+---
+
+## Responsive Layout Behavior
+
+The application should use flexible layouts that automatically adjust based on
+available screen space.
+
+Typical adaptations include:
+
+- Multi-column layouts becoming single-column layouts
+- Sidebar collapsing into a navigation drawer
+- Tables becoming scrollable or card-based views
+- Dashboard cards stacking vertically
+
+---
+
+## Accessibility Principles
+
+The platform should follow modern accessibility best practices to ensure that
+all users can effectively interact with the system.
+
+Accessibility improves usability for every user, not only those with
+disabilities.
+
+---
+
+## Color Accessibility
+
+Color should never be the only method used to communicate information.
+
+Every status, score, and warning should also include:
+
+- Labels
+- Icons
+- Numerical values
+- Supporting text where appropriate
+
+This ensures information remains understandable for users with color vision
+deficiencies.
+
+---
+
+## Keyboard Navigation
+
+All interactive elements should be fully accessible using keyboard navigation.
+
+Users should be able to:
+
+- Navigate forms
+- Upload documents
+- Review reports
+- Expand findings
+- Approve or reject assets
+
+without requiring a mouse.
+
+---
+
+## Screen Reader Support
+
+Important interface elements should include meaningful labels that allow screen
+readers to accurately describe:
+
+- Buttons
+- Forms
+- Tables
+- Charts
+- Status indicators
+- Navigation components
+
+Content hierarchy should follow a logical reading order.
+
+---
+
+## Readability
+
+Typography should maintain sufficient contrast and spacing to support long
+review sessions.
+
+Users should be able to comfortably read reports, compliance findings, and
+tables without visual fatigue.
+
+---
+
+## Performance Considerations
+
+Responsive behavior should not compromise application performance.
+
+Large datasets, reports, and dashboards should load progressively where
+appropriate to maintain a smooth user experience across devices and network
+conditions.
+
+---
+
+## Accessibility Goal
+
+The objective is to build a platform that is inclusive, efficient, and
+professional, ensuring that every user can confidently complete critical
+compliance and due diligence workflows regardless of device or accessibility
+needs.
