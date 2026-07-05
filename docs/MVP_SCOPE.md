@@ -358,3 +358,221 @@ Simple role-based authentication for:
 - HTX Reviewers
 
 The MVP uses lightweight authentication sufficient for demonstration purposes.
+
+# 6. Out of Scope (Post-MVP)
+
+To ensure the successful delivery of the hackathon MVP, several features are
+intentionally excluded from the initial implementation.
+
+These capabilities are part of the long-term product vision and may be
+developed after the hackathon.
+
+---
+
+## AI Trust Lifecycle Engine
+
+The continuous monitoring system for approved assets is part of the future
+platform vision.
+
+This includes:
+
+- Continuous issuer monitoring
+- Automated risk score recalculation
+- Document expiry monitoring
+- Sanctions and regulatory updates
+- Suspicious wallet activity detection
+- Versioned Due Diligence Reports
+- Trust Score history
+
+---
+
+## Advanced AI Models
+
+The MVP uses a simplified AI workflow.
+
+Future versions may include:
+
+- Multi-model AI validation
+- Industry-specific Due Diligence Models
+- Adaptive fraud detection models
+- Continuous model retraining
+- Explainability enhancements
+
+---
+
+## Production Security
+
+The MVP prioritizes functionality over enterprise deployment.
+
+Future improvements include:
+
+- Multi-factor Authentication (MFA)
+- Single Sign-On (SSO)
+- Hardware Security Modules (HSM)
+- Encryption key management
+- Enterprise identity providers
+
+---
+
+## Advanced Blockchain Features
+
+The MVP demonstrates TRON verification through report metadata.
+
+Future blockchain enhancements include:
+
+- Multiple blockchain support
+- Cross-chain verification
+- On-chain permission management
+- Smart contract upgrades
+- Automated token issuance workflows
+
+---
+
+## Enterprise Integrations
+
+Future versions may integrate directly with external systems, including:
+
+- ERP platforms
+- Trade finance platforms
+- Banking systems
+- Compliance providers
+- Government verification services
+- Identity verification providers
+
+---
+
+## Analytics & Reporting
+
+Future releases may include:
+
+- Organization-wide analytics
+- Compliance performance dashboards
+- AI accuracy reporting
+- Risk trend analysis
+- Executive reporting
+- Operational insights
+
+---
+
+## Public APIs
+
+The MVP focuses on the web application experience.
+
+Future versions may provide:
+
+- Public REST APIs
+- SDKs
+- Webhooks
+- Third-party integrations
+- Developer Portal
+
+---
+
+## Mobile Applications
+
+The MVP is designed for desktop web usage.
+
+Native mobile applications are planned for future releases.
+
+# 7. MVP Success Criteria
+
+The MVP will be considered successful if it demonstrates the complete
+AI-assisted Due Diligence workflow from document submission to blockchain
+verification.
+
+The following outcomes define a successful demonstration.
+
+---
+
+## Functional Success
+
+The platform allows a Business User to:
+
+- Create a new asset submission
+- Upload required trade finance documents
+- Submit documents for AI analysis
+
+The AI Due Diligence Engine successfully:
+
+- Processes uploaded documents
+- Performs document analysis
+- Detects fraud signals
+- Evaluates compliance requirements
+- Assesses risk
+- Generates explainable findings
+- Produces a valuation summary
+- Calculates confidence and readiness scores
+
+The platform generates an Exchange-Ready Due Diligence Package.
+
+A Compliance Officer can:
+
+- Review AI-generated findings
+- Approve or reject the submission
+- Request additional documents
+- Record review notes
+
+After approval, the platform:
+
+- Generates a TRON verification hash
+- Stores verification metadata
+- Displays a tokenization confirmation
+
+Finally, the platform presents a professional HTX Review Package containing:
+
+- Due Diligence Report
+- Compliance Summary
+- Risk Summary
+- Explainable Findings
+- TRON Verification Hash
+- Audit Trail
+
+---
+
+## Demo Success
+
+The complete happy-path demonstration can be performed without errors from:
+
+Business Submission
+
+↓
+
+Document Upload
+
+↓
+
+AI Due Diligence Analysis
+
+↓
+
+Exchange-Ready Due Diligence Package
+
+↓
+
+Compliance Officer Approval
+
+↓
+
+TRON Verification
+
+↓
+
+HTX Review Package
+
+---
+
+## Project Success
+
+Beyond technical implementation, the MVP successfully demonstrates the project's
+core vision:
+
+- AI assists compliance teams rather than replacing them.
+- Human reviewers remain responsible for final decisions.
+- Blockchain provides transparent and verifiable proof of review.
+- The platform reduces manual due diligence effort through explainable AI.
+- Real-World Assets can move toward tokenization through a standardized,
+  trusted verification workflow.
+
+The MVP serves as the foundation for a larger AI-powered Due Diligence
+Infrastructure capable of supporting the future growth of Real-World Asset
+tokenization.
