@@ -247,3 +247,114 @@ verification, and HTX-ready review.
 
 This workflow represents the core value proposition of the platform and serves
 as the foundation for future product development.
+
+---
+
+# 5. In Scope (Build)
+
+The MVP focuses exclusively on demonstrating the complete AI-assisted Due
+Diligence workflow from document submission to blockchain verification.
+
+The following features are included in the MVP.
+
+---
+
+## Business Portal
+
+- Business Dashboard
+- Create New Asset Submission
+- Document Upload
+- Submission Status Tracking
+
+---
+
+## AI Due Diligence Engine
+
+- OCR Document Processing
+- Document Analysis
+- Fraud Signal Detection
+- Compliance Checklist
+- Risk Assessment
+- Valuation Summary
+- Confidence Score
+- Explainable Findings
+- AI Recommendation
+
+---
+
+## Exchange-Ready Due Diligence Package
+
+Generate a professional Due Diligence Report containing:
+
+- Authenticity Score
+- Compliance Score
+- Risk Score
+- Confidence Score
+- Explainable Findings
+- Missing Documents
+- Valuation Summary
+- AI Recommendation
+
+---
+
+## Compliance Officer Portal
+
+- Review Due Diligence Report
+- View AI Findings
+- Approve Submission
+- Reject Submission
+- Request Additional Documents
+- Officer Notes
+- Audit Trail
+
+---
+
+## TRON Integration
+
+After approval, the platform will:
+
+- Create a verification record
+- Generate a TRON verification hash
+- Store report metadata
+- Store report version
+- Store timestamp
+
+Sensitive business documents remain off-chain.
+
+---
+
+## HTX Review Package
+
+Generate a standardized review package including:
+
+- Due Diligence Report
+- Compliance Summary
+- Risk Summary
+- Explainable Findings
+- TRON Verification Hash
+- Audit Trail
+
+---
+
+## Core Dashboard
+
+The MVP dashboard displays:
+
+- Total Assets
+- Assets Under Review
+- Approved Assets
+- Rejected Assets
+- Average Risk Score
+- Average Compliance Score
+
+---
+
+## Authentication
+
+Simple role-based authentication for:
+
+- Business Users
+- Compliance Officers
+- HTX Reviewers
+
+The MVP uses lightweight authentication sufficient for demonstration purposes.
