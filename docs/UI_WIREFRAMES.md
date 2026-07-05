@@ -1,56 +1,20 @@
-# Screen 1 — Business Dashboard
+# UI Wireframes
 
-## Purpose
+## SCR-001 — Business Dashboard
+- Left Sidebar
+- Top Navbar
+- KPI Cards
+- Create New Submission
+- Recent Submissions Table
 
-Allow businesses to manage Real-World Asset submissions from a single dashboard.
+## SCR-002 — New Submission
 
----
+## SCR-003 — Document Upload
 
-## Layout
+## SCR-004 — AI Processing
 
-Top Navigation
+## SCR-005 — Due Diligence Report
 
-↓
+## SCR-006 — Compliance Review
 
-Left Sidebar
-
-↓
-
-Dashboard Content
-
----
-
-## Sections
-
-1. KPI Overview
-
-- Total Assets
-- Under Review
-- Approved
-- Rejected
-
----
-
-2. Quick Actions
-
-Primary Button:
-Create New Submission
-
----
-
-3. Recent Asset Submissions
-
-Table containing:
-
-- Asset Name
-- Asset Type
-- Submission Date
-- Status
-- Risk Score
-- Action
-
----
-
-## Primary User Goal
-
-Create a new submission or monitor an existing one.
+## SCR-007 — HTX Review
