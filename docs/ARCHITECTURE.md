@@ -674,3 +674,138 @@ If necessary:
 
 This creates a continuously evolving trust record rather than a single
 point-in-time verification.
+
+# 6. Security Architecture
+
+The platform is designed with a security-first architecture to protect sensitive
+business information while ensuring transparency, accountability, and data
+integrity throughout the verification process.
+
+Security responsibilities are distributed across every layer of the platform.
+
+---
+
+## 6.1 Off-Chain Document Storage
+
+Business documents contain confidential commercial information and are never
+stored on the blockchain.
+
+Examples include:
+
+- Commercial Invoices
+- Purchase Orders
+- Bills of Lading
+- Tax Certificates
+- Business Registration Documents
+- Insurance Certificates
+
+These documents remain securely stored within the platform's private data
+storage.
+
+Only cryptographic proofs are written to TRON.
+
+---
+
+## 6.2 Blockchain Integrity
+
+The blockchain is used as a trust layer rather than a document storage system.
+
+Only immutable verification data is recorded.
+
+Recorded information includes:
+
+- Due Diligence Report Hash
+- Report Version
+- Verification Timestamp
+- Asset Metadata
+- Issuer Wallet Address
+
+This allows anyone with permission to verify that a report has not been altered
+after approval.
+
+---
+
+## 6.3 Human-in-the-Loop Governance
+
+Artificial Intelligence never makes final compliance decisions.
+
+The AI Engine performs analysis and generates recommendations, while human
+Compliance Officers remain responsible for all approval and rejection decisions.
+
+Core Principle:
+
+> AI assists.
+>
+> Humans decide.
+>
+> Blockchain proves.
+
+This governance model ensures accountability and supports explainable decision
+making.
+
+---
+
+## 6.4 Audit Trail
+
+Every significant platform action is recorded to maintain a complete history of
+the verification process.
+
+Examples include:
+
+- Document uploads
+- AI analysis completion
+- Compliance decisions
+- Requested document updates
+- Report generation
+- Blockchain verification
+- Trust score updates
+
+The audit trail provides transparency and supports future investigations when
+required.
+
+---
+
+## 6.5 Data Integrity
+
+The platform verifies that information remains consistent throughout the
+workflow.
+
+Integrity checks include:
+
+- Cross-document validation
+- Duplicate detection
+- Metadata consistency
+- Report version tracking
+- Verification hash comparison
+
+Any inconsistency is highlighted for human review.
+
+---
+
+## 6.6 Access Control
+
+Different user roles have different permissions within the platform.
+
+### Business Users
+
+- Submit assets
+- Upload documents
+- View AI reports
+- Respond to document requests
+
+### Compliance Officers
+
+- Review Due Diligence Reports
+- Approve assets
+- Reject assets
+- Request additional information
+- View audit history
+
+### HTX Reviewers
+
+- View standardized review packages
+- Review verification details
+- Make listing decisions outside the platform
+
+Access is restricted according to user responsibilities to minimize unnecessary
+exposure of sensitive information.
