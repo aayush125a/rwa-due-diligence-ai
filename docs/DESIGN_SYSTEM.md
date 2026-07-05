@@ -585,3 +585,117 @@ Every reusable component should behave consistently regardless of where it
 appears in the application.
 
 Users should never need to relearn how an interface element functions.
+
+---
+
+# 6. Score Card System
+
+Score Cards are one of the primary visual elements of the platform.
+
+They summarize complex AI analysis into clear, easy-to-understand metrics while
+allowing users to drill down into detailed explanations.
+
+Every score card throughout the application should follow the same visual style
+to create familiarity and consistency.
+
+---
+
+## Standard Score Cards
+
+The platform uses five primary score cards.
+
+### Authenticity Score
+
+Measures the confidence that submitted documents and asset information are
+genuine and internally consistent.
+
+Examples:
+
+- 96%
+- 91%
+- 84%
+
+---
+
+### Compliance Score
+
+Measures how completely the submitted asset satisfies required compliance
+requirements.
+
+Examples:
+
+- Required documents
+- Regulatory completeness
+- Verification status
+
+---
+
+### Risk Score
+
+Represents the overall risk level calculated from multiple contributing factors.
+
+Examples include:
+
+- Country Risk
+- Industry Risk
+- Buyer Reputation
+- Fraud Indicators
+
+Lower risk represents a stronger candidate for tokenization.
+
+---
+
+### Confidence Score
+
+Represents the AI engine's confidence in its overall Due Diligence assessment.
+
+This score reflects the quality and completeness of the available information.
+
+---
+
+### Trust Score
+
+Used by the AI Trust Lifecycle Engine after tokenization.
+
+Unlike the other scores, the Trust Score is continuously updated as the AI
+monitors issuer health, document validity, regulatory changes, and post-listing
+events.
+
+---
+
+## Score Card Layout
+
+Each score card should display:
+
+- Score Name
+- Numeric Score
+- Visual Indicator
+- Short Description
+- Current Status
+
+Users should understand the score within a few seconds without reading detailed
+documentation.
+
+---
+
+## Consistency Rules
+
+Score cards should:
+
+- Maintain identical layout throughout the platform.
+- Use consistent spacing and typography.
+- Display scores prominently.
+- Link to detailed explanations where applicable.
+
+No score should appear in multiple visual styles.
+
+---
+
+## Explainability
+
+Every score should allow users to understand how it was produced.
+
+Selecting a score should reveal the supporting AI findings, contributing
+factors, and relevant document evidence whenever appropriate.
+
+The platform prioritizes transparent AI over black-box scoring.
