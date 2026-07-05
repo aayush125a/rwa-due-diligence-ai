@@ -312,3 +312,110 @@ comfortable reading in both bright and low-light environments.
 
 Important information should never rely on color alone; labels, icons, and text
 should reinforce meaning.
+
+---
+
+# 4. Layout & Grid System
+
+The platform follows a structured enterprise application layout designed for
+financial and compliance workflows.
+
+Every screen should prioritize consistency, readability, and efficient access
+to critical information.
+
+---
+
+## Overall Layout
+
+Every primary screen should follow a consistent three-part structure:
+
+- Persistent Left Navigation
+- Top Header
+- Main Content Area
+
+This layout allows users to navigate between workflows without losing context.
+
+---
+
+## Left Navigation
+
+The left navigation remains visible throughout the application.
+
+Primary navigation items include:
+
+- Dashboard
+- Assets
+- Upload Documents
+- Due Diligence Reports
+- Compliance Reviews
+- Tokenization
+- Trust Monitoring
+- Settings
+
+The active page should always be clearly highlighted.
+
+---
+
+## Top Header
+
+The header provides page-level context and quick actions.
+
+Typical elements include:
+
+- Page Title
+- Asset Name
+- Current Status Badge
+- Search
+- Notifications
+- User Profile
+
+The header should remain clean and uncluttered.
+
+---
+
+## Main Content Area
+
+The main content area presents the primary workflow for each screen.
+
+Content should be grouped into clearly separated cards or sections with
+consistent spacing.
+
+Complex information should be broken into manageable sections rather than
+displayed as one large block.
+
+---
+
+## Grid Principles
+
+Use a consistent spacing system throughout the application.
+
+Layouts should align vertically and horizontally to create a predictable visual
+structure.
+
+Cards displaying related information should maintain equal spacing and sizing
+where appropriate.
+
+---
+
+## Responsive Behavior
+
+The application should remain usable across desktop and tablet devices.
+
+On smaller screens:
+
+- Navigation may collapse into an expandable menu.
+- Multi-column layouts may stack vertically.
+- Tables should remain readable through horizontal scrolling or adaptive layouts.
+
+The desktop experience remains the primary design target for the Hackathon MVP.
+
+---
+
+## White Space
+
+Generous white space should separate sections and major interface components.
+
+Avoid overcrowding the interface with excessive information on a single screen.
+
+Well-structured spacing improves readability, reduces cognitive load, and
+supports faster decision-making.
